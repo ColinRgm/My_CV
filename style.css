@@ -27,6 +27,12 @@ li {
     padding-bottom: 50px;
 }
 
+.carre {
+    width: auto;
+    height: auto;
+    background-color: white;
+}
+
 .picture {
     width: 100%;
     grid-column: 1 / 2;
@@ -69,9 +75,15 @@ h1 {
     margin: 0;
 }
 
-.soustitre{
+.soustitre {
     text-align: center;
     height: 50px;
+}
+
+.grid-container8 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 90px auto;
 }
 
 .grid-container4 {
@@ -111,6 +123,7 @@ h1 {
 .creation, .realisation, .intro, .version {
     border-left: black solid 2px;
     padding-left: 50px;
+    text-align: left;
 }
 
 /* -- EXPERIENCE PROFESSIONELLES ------------------------------------------------------------------------------------ */
@@ -129,6 +142,7 @@ h1 {
 .school, .liip, .soleol, .david, .semo, .etvj {
     border-left: black solid 2px;
     padding-left: 50px;
+    text-align: left;
 }
 
 /* -- FORMATIONS ---------------------------------------------------------------------------------------------------- */
@@ -147,6 +161,7 @@ h1 {
 .jobtrek, .ef, .vso {
     border-left: black solid 2px;
     padding-left: 50px;
+    text-align: left;
 }
 
 .trekkis, .english, .ecole {
@@ -193,7 +208,7 @@ h1 {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-    background-color: #eaeaea;
+    background-color: #c7c7c7;
 
 }
 
@@ -201,7 +216,7 @@ h1 {
 .panel {
     display: none;
     overflow: hidden;
-    transition: max-height 0.2s ease-in;
+    transition: max-height 0.9s ease-in;
 }
 
 .accordion:after {
